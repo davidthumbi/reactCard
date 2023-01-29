@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    background: #23252C;
+    height: 868px;
+    width: 548px;
+    top: 0px;
+    margin: auto;
+
+}
+
+.card {
+    background-color: #161619;
+    position: relative;
+    width: 317px;
+    height: 550px;
+    top: 30%;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.info {
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    position: absolute;
+    border-radius: 6px;
+    /* line-height: 0.02rem; */
+    top: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.info>img {
+    height: 317px;
+    width: 317px;
+    border-radius: 5px 5px 0 0;
+}
+
+.info h2 {
+    font-size: 30px;
+    line-height: 0.02rem;
+    color: white;
+}
+
+.info h3 {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 0.02rem;
+    color: white;
+}
+
+.info a {
+    text-decoration: none;
+    color: #5093E2;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+}
+
+.btn button {
+    margin-top: 5px;
+    width: 115px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.email {
+    background-color: white;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: #ffffff;
+}
+
+.about {
+    position: absolute;
+    margin-top: 240px;
+}
+
+.about h3 {
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.about p {
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.interests {
+    position: absolute;
+    margin-top: 370px;
+}
+
+.interests h3 {
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.interests p {
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    width: 317px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    margin-top: 520px;
+    background-color: #0c0c0e;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #5093E2;
+    transition: .5s;
+}
